@@ -1,4 +1,4 @@
-# Acode Plugin Docs
+# Acode VeaYoKH Plugin Doce 
 
 A development guide for Acode plugins, fully updated with comprehensive documentation and examples for all the latest APIs.
 
