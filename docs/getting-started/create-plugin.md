@@ -1,10 +1,10 @@
 ---
 lang: en-US
-title: Create an Acode Plugin
+title: Create OMAN Plugin
 description: Set up a plugin project from a template, run it on your phone, and publish it.
 ---
 
-# Create an Acode Plugin
+# Create OMAN Plugin
 
 Plugins are written in JavaScript (or TypeScript) and run inside Acode. This page takes you from an empty folder to a plugin installed on your device and, when you are ready, published.
 
@@ -129,7 +129,7 @@ Plugins installed from a URL or a local zip get a **reload** icon in the **Exten
 
 ## Create a plugin with the CLI <Badge type="warning" text="community" />
 
-The community-maintained [Acode Plugin CLI](https://github.com/itsvks19/acode-plugin-cli) scaffolds a project from the official templates with an interactive wizard.
+The community-maintained [OMAN Plugin CLI](https://github.com/itsvks19/acode-plugin-cli) scaffolds a project from the official templates with an interactive wizard.
 
 Install it (requires [Rust](https://www.rust-lang.org/tools/install)):
 
@@ -167,7 +167,7 @@ The wizard asks for the plugin name, id, version and description, author details
    ```
    :::
 
-2. **Upload the zip** to [acode.app](https://acode.app) to publish it in the plugin store. Watch the [publishing walkthrough](https://youtube.com/shorts/cxF2pxyN1HM?si=kQ5_BRtIO2RU-zhb) if you have not done it before.
+2. **Upload the zip** to [OMAN.app](https://OMAN.app) to publish it in the plugin store. Watch the [publishing walkthrough](https://youtube.com/shorts/cxF2pxyN1HM?si=kQ5_BRtIO2RU-zhb) if you have not done it before.
 
 To release an update, increase `version` in `plugin.json`, build again and upload the new zip. See [Publishing updates](../plugin-essentials/manifest.md#publishing-updates).
 
@@ -177,10 +177,10 @@ Use an API key to publish each release from GitHub Actions or another CI. See [P
 
 ## Video tutorial
 
-[How to create Acode plugins](https://youtu.be/ls--txHX3RQ?si=ZSvJMsb1KFeQA8zd)
+[How to create OMAN plugins](https://youtu.be/ls--txHX3RQ?si=ZSvJMsb1KFeQA8zd)
 
 ## Next steps
 
 - [Understanding Plugins](./understanding-plugin.md): the lifecycle of a plugin
 - [Core File](../plugin-essentials/core-file.md): what `main.js` must contain
-- [Acode API](../global-apis/acode.md): the API your plugin talks to
+- [Acode API](../global-apis/OMAN.md): the API your plugin talks to
