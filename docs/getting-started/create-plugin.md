@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Create an Acode Plugin
+title: Create an OMAN Plugin
 description: Set up a plugin project from a template, run it on your phone, and publish it.
 ---
 
