@@ -1,10 +1,10 @@
 ---
 lang: en-US
-title: Acode Plugins
-description: What Acode plugins are, how to install them, and where to go to build your own.
+title: OMAN Plugins
+description: What OMAN plugins are, how to install them, and where to go to build your own.
 ---
 
-# Acode Plugins
+# OMAN Plugins
 
 Plugins extend the Acode editor: add commands, themes, languages, formatters, sidebar panels and more, or change how existing features behave.
 
@@ -31,6 +31,6 @@ A plugin runs inside Acode with access to your files and the editor. Install plu
 ## Build your own
 
 1. [Create a plugin](./create-plugin.md): set up a project from a template and run it on your device.
-2. [Understanding Plugins](./understanding-plugin.md): how Acode loads and unloads plugin code.
+2. [Understanding Plugins](./understanding-plugin.md): how OMAN loads and unloads plugin code.
 3. [Manifest](../plugin-essentials/manifest.md) and [Core File](../plugin-essentials/core-file.md): the two files every plugin needs.
-4. [Acode API](../global-apis/acode.md): what your plugin can use.
+4. [OMAN API](../global-apis/acode.md): what your plugin can use.
